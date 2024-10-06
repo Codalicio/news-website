@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 48, 48);
+    color: #fefefe;
+}
+
+header > nav {
+    display: flex;
+}
+
+header > nav > div > a {
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+header > nav > div > a:hover {
+    text-decoration: none;
+    color: rgb(45, 4, 4);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+header > nav > div > img {
+    padding: 10px;
+    /* margin: 5px; */
+    /* padding-bottom: 0; */
+    width: 6.25rem;
+    border: 2px solid rgba(231, 241, 241, 0.2);
+}
+
+.one {
+    float: right;
+    margin: 2rem 0 2rem 45%;
+    background-color: rgba(231, 241, 241, 0.2);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+}
+
+section > div {
+    width: 100%;
+    margin-right: 100px;
+}
+
+section > div > img {
+    width: 80%;
+    margin-right: 0;
+    padding: 20px 20px 20px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content:flex-start;
+}
+
+footer > div {
+    width: 50%;
+    text-align: center;
+}
+
+footer > div > a {
+    color: #fefefe;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+footer > div > a:hover {
+    text-decoration: none;
+    color: rgb(45, 4, 4);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+hr {
+    border: 2px solid teal;
+}
